@@ -125,6 +125,56 @@ a:hover {
     transition: color 0.3s ease;
 }
 
+.fingering-helper-config-form-container {
+    margin-top: 5vh;
+    display: grid; 
+    place-items: center;
+    font-size: 24px;
+    font-family: 'Inter', 'Destroy';
+    background-color: rgb(44, 47, 47);
+    color: white;
+    width: 50%;
+    border: 2px solid rgb(69, 73, 73);
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+.fingering-helper-config-form {
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+    display: grid; 
+    place-items: center;
+}
+
+.fingering-helper-config-form {
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+    display: grid; 
+    place-items: center;
+    width: 90%;
+}
+
+.form-input-container {
+    width: 100%;
+}
+
+.form-submit {
+    background-color: #966fd6;
+    border: 2px solid #966fd6;
+    border-radius: 25px;
+    width: 90%;
+    height: 50%;
+    margin-top: 2vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-submit:hover {
+    background-color: #705D8F;
+    border: 2px solid #705D8F;
+    border-radius: 25px;
+}
+
 
 
 

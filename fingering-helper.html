@@ -20,9 +20,29 @@
         </div>
 
         <div class="primary-text-container">
-            <h2 class="subtitle-text">WELCOME!</h2>
+            <h2 class="subtitle-text">LEARN</h2>
             <h1 class="title-text">Music Fingering Helper</h1>
-            <p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel tellus tempor, eleifend neque non, malesuada leo. Duis scelerisque orci sed vulputate porta. Donec facilisis, mi eget tincidunt molestie, mauris elit pellentesque urna, sit amet sagittis ante leo vitae lacus. Vestibulum vitae dui non dolor ullamcorper blandit id sed libero. Cras sit amet tortor mi. Nunc turpis turpis, interdum in enim non, hendrerit elementum sem. Etiam lobortis lacinia venenatis. Praesent accumsan, ex et fringilla interdum, odio eros consectetur odio, eget aliquam nulla quam quis nibh. </p>
+            <p class="body-text">Ready to learn your fingerings?</p>
+            <div class="fingering-helper-config-form-container">
+                <form class="fingering-helper-config-form">
+                    <p class="body-text">Select your Instrument's Key</p>
+                    
+                    <!--https://www.dhiwise.com/post/input-radio-html-how-to-design-and-style-form-options-->
+                    <div class="form-input-container"><input type="radio" id="keySelectorC" name="instument_key" value="C">
+                    <label for="keySelectorC">C&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;</label></div>
+
+                    <div class="form-input-container"><input type="radio" id="keySelectorBb" name="instument_key" value="Bb">
+                    <label for="keySelectorBb">Bb</label></div>
+
+                    <div class="form-input-container"><input type="radio" id="keySelectorEb" name="instument_key" value="Eb">
+                    <label for="keySelectorEb">Eb</label></div>
+
+                    <div class="form-input-container"><input type="radio" id="keySelectorF" name="instument_key" value="F">
+                    <label for="keySelectorF">F&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;</label></div>
+
+                    <div class="form-input-container"><input class="form-submit" type="submit" value="Begin"></div>
+                </form>
+            </div>
         </div>
 
         <footer class="footer">
@@ -62,6 +82,6 @@
         </footer>
     </div>
 
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/fingering-helper.ts"></script>
     </body>
 </html>

@@ -1,0 +1,12 @@
+Link: #966fd6
+Link Hover: #705D8F
+
+
+
+Pallate:
+EDF6F5 (white)
+E1D5F6 (whiteish purple)
+7FCDAA (mint)
+966FD6 (purple)
+705D8F (darker purple)
+163228 (deep green)
