@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="icon" type="image/x-icon" href="\img\logo.png">
+        <title>Music Fingering Helper</title>
+    </head>
+    <body>
+    <div id="app">
+        <div class="navbar">
+            <div class="navbar-left">
+              <img src="img/logo.png" alt="Logo" class="logo"/>
+              <span class="site-title"><a href="./index.html">Music Fingering Helper</a></span>
+            </div>
+            <div class="navbar-right">
+              <a href="./fingering-helper.html" class="nav-link">Fingering Helper</a>
+              <a href="#About/Contact" class="nav-link">About/Contact</a>
+            </div>
+        </div>
+
+        <div class="primary-text-container">
+            <h2 class="subtitle-text">LEARN</h2>
+            <h1 class="title-text">Music Fingering Helper</h1>
+            <p class="body-text">Ready to learn your fingerings?</p>
+            
+        </div>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <img src="img/logo.png" alt="Logo" class="logo"/>
+                <span class="site-title">Music Fingering Helper</span>
+      
+                <div class="social-navbar">
+                    <!--<a id="youtube-link" class="social-link" href="#"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class=" Icon_icon__QfSMz Icon_light__6yYsD Icon_solid-no-bg__sq0IZ"><path d="m10.007 9.113 5.1 2.898-5.1 2.898V9.113ZM24 2.57V21.43A2.572 2.572 0 0 1 21.429 24H2.57A2.572 2.572 0 0 1 0 21.429V2.57A2.572 2.572 0 0 1 2.571 0H21.43A2.572 2.572 0 0 1 24 2.571Zm-2.25 9.445s0-3.193-.407-4.725a2.445 2.445 0 0 0-1.725-1.736C18.102 5.143 12 5.143 12 5.143s-6.102 0-7.618.412c-.84.225-1.5.89-1.725 1.736-.407 1.527-.407 4.725-.407 4.725s0 3.193.407 4.725a2.41 2.41 0 0 0 1.725 1.709c1.516.407 7.618.407 7.618.407s6.102 0 7.618-.412a2.41 2.41 0 0 0 1.725-1.71c.407-1.526.407-4.719.407-4.719Z" fill="currentColor"></path></svg></a>-->
+                    <!--<a id="twitter-link" class="social-link" href="#" target="_blank"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class=" Icon_icon__QfSMz Icon_light__6yYsD Icon_solid-no-bg__sq0IZ"><path class="x_svg__cls-1" d="M14.28 10.16 23.22 0H21.1l-7.76 8.82L7.15 0H0l9.37 13.34L0 24h2.12l8.19-9.32L16.85 24H24l-9.72-13.84Zm-11.4-8.6h3.25L21.1 22.51h-3.25L2.88 1.56Z" fill-rule="nonzero" fill="currentColor"></path></svg></a>-->
+                    <!--<a id="facebook-link" class="social-link" href="#"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class=" Icon_icon__QfSMz Icon_light__6yYsD Icon_solid-no-bg__sq0IZ"><path d="M24 1.323v21.348c0 .734-.595 1.324-1.323 1.324h-6.118v-9.29h3.118l.466-3.621h-3.59V8.77c0-1.05.29-1.763 1.795-1.763h1.918v-3.24a25.785 25.785 0 0 0-2.796-.146c-2.765 0-4.661 1.688-4.661 4.79v2.673H9.68v3.621h3.129V24H1.323A1.326 1.326 0 0 1 0 22.677V1.323C0 .595.595 0 1.323 0h21.348C23.405 0 24 .595 24 1.323Z" fill-rule="nonzero" fill="currentColor"></path></svg></a>-->
+                    <!--<a id="discord-link" class="social-link" href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16"><path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/></svg></a>-->
+                    <!--<a id="twitch-link" class="social-link" href="#"><svg width="23" height="24" xmlns="http://www.w3.org/2000/svg" class=" Icon_icon__QfSMz Icon_light__6yYsD Icon_solid-no-bg__sq0IZ"><path d="M1.571 0 0 4.058v16.588h5.586v2.998H8.73l2.966-2.998h4.542l6.108-6.175V0H1.571Zm18.68 13.41-3.492 3.531h-5.586L8.207 19.94V16.94H3.493V2.116h16.759V13.41ZM16.76 6.175v6.17h-2.094v-6.17h2.094Zm-5.586 0v6.17H9.079v-6.17h2.094Z" fill-rule="nonzero" fill="currentColor"></path></svg></a>-->
+                </div>
+            </div>
+            
+            <div class="footer-middle">
+                <div class="bottom-navbar">
+                    <a href="./fingering-helper.html" class="nav-link" style="font-size: 0.75rem;">Fingering Helper</a>
+                    <a href="#About/Contact" class="nav-link" style="font-size: 0.75rem;">About/Contact</a>
+                </div>
+            </div>
+    
+            <div class="footer-middle-bottom">
+                <a href="#" target="_blank">---</a>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="body-text" style="font-size: 0.75rem;">© 2024 by Owen Griffin, licensed under <a class="text-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank">CC BY-NC-SA 4.0</a></p>
+              
+                <div class="policies-holder">
+                    <a href="#">Privacy Policy</a>
+                    <a style="padding-left: 1vw; padding-right: 1vw;">|<br>|</a>
+                    <a href="#">User Agreement</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="/src/fingering-helper-quiz.ts"></script>
+    </body>
+</html>

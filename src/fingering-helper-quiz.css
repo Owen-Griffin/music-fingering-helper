@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  color: white;
+  text-align: center;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed; /* Fixed to stay at the top */
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000;
+    box-sizing: border-box;
+}
+  
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+  
+.logo {
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+  
+.site-title {
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+  
+.nav-link {
+    margin-left: 20px;
+    font-family: 'Inter'; /* Added fallback font */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+  
+.nav-link:hover {
+    color: #ccc;
+}
+  
+.navbar-right {
+    gap: 10px;
+}
+  
+.nav-icon img {
+    height: 20px;
+    transition: opacity 0.3s ease;
+}
+  
+.nav-icon:hover img {
+    opacity: 0.7;
+}
+
+.primary-text-container {
+    display: grid; 
+    place-items: center;
+    font-size: 24px;
+    font-family: 'Inter', 'Destroy';
+    background-color: rgb(44, 47, 47);
+    color: white;
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+/* Text Styles */
+.title-text {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    width: 90%;
+}
+  
+.subtitle-text {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding-top: 2rem;
+    font-size: 12px;
+    width: 90%;
+}
+  
+.body-text {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+.text-link {
+    color: #966fd6;
+    border-bottom: 1px solid #966fd6;
+}
+
+.text-link:hover {
+    color: #705D8F;
+    border-bottom: 1px solid #705D8F;
+    transition: color 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(32, 34, 34);
+}
+  
+.footer-top {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Inter', 'Destroy';
+}
+  
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-family: 'Inter', 'Destroy';
+}
+  
+.footer-middle-bottom {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-family: 'Inter', 'Destroy';
+}
+  
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-family: 'Inter', 'Destroy';
+}
+  
+.social-navbar {
+    padding-left: 50vw;
+}
+  
+.policies-holder {
+    padding-left: 50vw;
+    display: flex;
+    justify-content: center;
+}
